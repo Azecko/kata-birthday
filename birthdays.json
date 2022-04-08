@@ -1,0 +1,12 @@
+{
+    "jane.doe@example.com": {
+        "birthdate": "2000-04-08",
+        "firstname": "Jane",
+        "lastname": "Doe"
+    },
+    "john.doe@example.com": {
+        "birthdate": "2004-04-08",
+        "firstname": "John",
+        "lastname": "Doe"
+    }
+}

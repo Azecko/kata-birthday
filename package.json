@@ -1,0 +1,15 @@
+{
+  "name": "kata-birthday",
+  "version": "1.0.0",
+  "description": "Kata-birthday from epfl-dojo by Azecko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Azecko",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.7.3"
+  }
+}
