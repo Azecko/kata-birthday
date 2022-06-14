@@ -1,0 +1,2 @@
+katabirthday_deploy_path: '/srv/kata-birthday'
+katabirthday_image_name: 'katabirthday'

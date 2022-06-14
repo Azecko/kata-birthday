@@ -1,0 +1,5 @@
+- include_vars: kata-birthday-vars.yml
+  tags: always
+
+- include_tasks:
+    file: deploy.yml

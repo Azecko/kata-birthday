@@ -1,0 +1,6 @@
+all:
+  hosts:
+    vmapprentis:
+      ansible_host: 10.95.64.11
+      ansible_port: 22
+      ansible_user: root

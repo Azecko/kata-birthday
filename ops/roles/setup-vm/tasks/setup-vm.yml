@@ -1,0 +1,28 @@
+- name: Test from setup vm 
+  debug:
+    msg: "Hello from debug setup vm"
+
+- name: Install essential packages
+  apt:
+    package:
+      - bash-completion
+      - curl
+      - git
+      - htop
+      - iputils-arping
+      - iputils-ping
+      - jq
+      - less
+      - net-tools
+      - netcat
+      - make
+      - openssl
+      - pwgen
+      - silversearcher-ag
+      - telnet
+      - tmux
+      - tree
+      - vim
+      - wget
+      - xdiskusage
+  become: yes

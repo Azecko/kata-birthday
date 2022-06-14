@@ -1,0 +1,30 @@
+# - Cloner le repo github de kata-birthday (https://github.com/Azecko/kata-birthday) sur la vm
+- name: Clone a repo with separate git directory
+  ansible.builtin.git:
+    repo: https://github.com/Azecko/kata-birthday
+    dest: "{{ katabirthday_deploy_path }}"
+    force: yes
+# Copier les données des anniversaires
+- name: Copy birthdays.json
+  copy:
+    src: /keybase/team/epfl_dojo/kata-birthday/birthdays.json
+    dest: "{{ katabirthday_deploy_path }}"
+# Copier le .env
+- name: Copy .env
+  copy:
+    src: /keybase/team/epfl_dojo/kata-birthday/.env
+    dest: "{{ katabirthday_deploy_path }}"
+# - Exécuter docker build . -t panseri/katabirthday (grâce au Dockerfile) (peut être non nécessaire si on installe sendmail directemment dans la commande npm start ?)
+- name: Build an image and push it to a private repo
+  community.docker.docker_image:
+    build:
+      path: "{{ katabirthday_deploy_path }}"
+    name: "{{ katabirthday_image_name }}"
+    source: build
+# Créer le crontab
+- name: Run kata-birthday
+  ansible.builtin.cron:
+    name: "kata-birthday"
+    minute: "3"
+    hour: "7"
+    job: "docker run --rm --name birthdays -v {{ katabirthday_deploy_path }}:/usr/src/app -w /usr/src/app {{ katabirthday_image_name }} npm start -- >/dev/null 2>&1"
