@@ -16,7 +16,8 @@ async function sendMail(receiver, subject, html) {
         from: process.env.MAIL_FROM, // sender address
         to: receiver, // list of receivers
         subject: subject, // Subject line
-        html: html, // html body
+        //html: html, // html body
+        text: html, // html body
       });
 }
 
@@ -49,9 +50,12 @@ const arrayRemove = (arr, value) => {
 }
 
 const sendCelebrationEmailTo = async (emailList, peopleToCelebrate) => {
-    var mailMessage = `Hello there ! Today is <strong>${peopleToCelebrate.firstname}</strong>'s birthday ! Don't forget to wish an happy birthday to him/her !<br>He/She is now <strong>${await getAge(peopleToCelebrate.birthdate)}</strong> years old.`
+    var mailMessage
+    mailMessage = `Hello there!\n\n`
+    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to him/her!\nHe/She is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
+    mailMessage += `\n\nYour truly,\nBirthminder bot.`
     console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
-    sendMail(emailList, `${peopleToCelebrate.firstname}'s birthday`, mailMessage)
+    sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
 
 peopleToCelebrate.forEach((e, i) => {
