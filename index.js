@@ -58,11 +58,21 @@ const genderify = (gender, word) => {
     return words[word]
 }
 
+let quotes = require('./quotes.json')
+const getQuotes = () => {
+    return quotes[ quotes.length * Math.random() << 0]
+}
+
 const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEmail) => {
+    console.log(getQuotes())
     var mailMessage
     mailMessage = `Hello there!\n\n`
     mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (${celebratedEmail})!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
-    mailMessage += `\n\nYour truly,\nBirthminder bot.`
+    mailMessage += `\n\nBirthminder has selected this quote for ${peopleToCelebrate.firstname}:\n`
+    mailMessage += `« ${getQuotes().quote} »`
+    const quoteAuthor = `— ${getQuotes().author}`
+    mailMessage += `\n${quoteAuthor.padStart(72)}`
+    mailMessage += `\n\nYour truly,\nBirthminder bot ❤`
     console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
     sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
