@@ -2,11 +2,13 @@
     "jane.doe@example.com": {
         "birthdate": "2000-04-08",
         "firstname": "Jane",
-        "lastname": "Doe"
+        "lastname": "Doe",
+        "gender": "f"
     },
     "john.doe@example.com": {
         "birthdate": "2004-04-08",
         "firstname": "John",
-        "lastname": "Doe"
+        "lastname": "Doe",
+        "gender": "m"
     }
 }
