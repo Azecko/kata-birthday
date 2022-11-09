@@ -49,10 +49,19 @@ const arrayRemove = (arr, value) => {
     })
 }
 
+const genderify = (gender, word) => {
+    if (gender !== "f") return word
+    let words = {
+        "him": "her",
+        "He": "She"
+    }
+    return words[word]
+}
+
 const sendCelebrationEmailTo = async (emailList, peopleToCelebrate) => {
     var mailMessage
     mailMessage = `Hello there!\n\n`
-    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to him/her!\nHe/She is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
+    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')}!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
     mailMessage += `\n\nYour truly,\nBirthminder bot.`
     console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
     sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
