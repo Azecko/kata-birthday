@@ -1,0 +1,1170 @@
+[
+    {
+        "quote": "The only constant in the technology industry is change.",
+        "author": "Marc Beniof"
+    },
+    {
+        "quote": "The 4 Ps for Change and Release: Planning Prevents Poor Performance.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "Any sufficiently advanced bug is indistinguishable from a feature.",
+        "author": "Rick Kulaweic"
+    },
+    {
+        "quote": "IT is ever-changing and there is the need to evolve in order to stay relevant.",
+        "author": "Ryan Ogilvie"
+    },
+    {
+        "quote": "A Release is like a boat. 80% of the holes plugged is not good enough.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "Try harder next time…is not a problem management method mentioned in ITIL.",
+        "author": "Denis Matte"
+    },
+    {
+        "quote": "Technology itself is neither good or bad. People are good or bad.",
+        "author": "Naveen Jain"
+    },
+    {
+        "quote": "ITSM delivery is all about helping people and that’s why it’s important to keep the human touch intact.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "Simplicity is the ultimate sophistication.",
+        "author": "Leonardo DaVinci"
+    },
+    {
+        "quote": "IT is not just another department in an organization. It’s pervasive, like electricity.",
+        "author": "The Phoenix Project"
+    },
+    {
+        "quote": "The Change manager is like the air traffic controller of the production environment.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "A fool with a tool is still a fool. Always have a goal, a plan & the tool as the enabler.",
+        "author": "Darshan Appayanna"
+    },
+    {
+        "quote": "The best customer service is when end users don’t need to reach out to the help desk.",
+        "author": "Nishant Rao"
+    },
+    {
+        "quote": "The SLA explains the service. It does not predict the performance of that service. Explanation does not mean prediction.",
+        "author": "Denis Matte"
+    },
+    {
+        "quote": "The simplest way to increase availability is to focus on Incident Management and Change Management.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "Quality in a service or product is not what you put into it. It’s what the client or customer gets out of it.",
+        "author": "Peter Drucker"
+    },
+    {
+        "quote": "The foundation of good help desk support is the ability to organize your workload, prioritize tickets, and monitor ticket management.",
+        "author": "Megan Pacella"
+    },
+    {
+        "quote": "The value of networking. It is very important (in IT). There are so many resources out there that you can connect with for the latest updates, tips and tricks.",
+        "author": "Ryan Ogilvie"
+    },
+    {
+        "quote": "IT Security is a form of Problem Management. It looks to proactively prevent Incidents.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "Getting information off the Internet is like taking a drink from a fire hydrant.",
+        "author": "Mitchell Kapor"
+    },
+    {
+        "quote": "When working for IT Security, you are only one Incident away from being the most important group in IT.",
+        "author": "Unknown"
+    },
+    {
+        "quote": "If people resist Root Cause Analysis, ask what they will do to prevent it in the future.",
+        "author": "Denis Matte"
+    },
+    {
+        "quote": "Not all improvement ideas are good ones. Process and governance is needed to allow bad ideas to die and good ideas to flourish.",
+        "author": "Denis Matte"
+    },
+    {
+        "quote": "If you want a 2-3% efficiency improvement in IT service management, work harder. If you want a 30-50% efficiency improvement, adopt Lean.",
+        "author": "Stuart Rance"
+    },
+    {
+        "quote": "Any improvements made anywhere except the bottleneck are an illusion.",
+        "author": "The Phoenix Project"
+    },
+    {
+        "quote": "ITSM is full of verschlimmbesserung – supposed improvements that make things worse. Correct this by adopting better change management principles and aligning all initiatives to a shared goal – exceptional customer experience.",
+        "author": "Stuart Rance"
+    },
+    {
+        "quote": "In our company, we all have 2 jobs: 1) to do our job and 2) to improve it",
+        "author": "Toyota"
+    },
+    {
+        "quote": "It is better to have a frustrated person who complains than someone who no longer cares about the system in place.",
+        "author": "Ryan Ogilvie"
+    },
+    {
+        "author": "Notepad++",
+        "quote": "The creation of Notepad++ is due to my need for a decent editor to edit the source code of Notepad++"
+    },
+    {
+        "author": "Notepad++ #1",
+        "quote": "I hate reading other people's code.\nSo I wrote mine, made it as open source project, and watch others suffer."
+    },
+    {
+        "author": "Notepad++ #2",
+        "quote": "Good programmers use Notepad++ to code.\nExtreme programmers use MS Word to code, in Comic Sans, center aligned."
+    },
+    {
+        "author": "Notepad++ #3",
+        "quote": "The best things in life are free.\nNotepad++ is free.\nSo Notepad++ is the best.\n"
+    },
+    {
+        "author": "Richard Stallman",
+        "quote": "If I'm the Father of Open Source, it was conceived through artificial insemination using stolen sperm without my knowledge or consent."
+    },
+    {
+        "author": "Martin Golding",
+        "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
+    },
+    {
+        "author": "L. Peter Deutsch",
+        "quote": "To iterate is human, to recurse divine."
+    },
+    {
+        "author": "Seymour Cray",
+        "quote": "The trouble with programmers is that you can never tell what a programmer is doing until it's too late."
+    },
+    {
+        "author": "Brian Kernighan",
+        "quote": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
+    },
+    {
+        "author": "Alan Kay",
+        "quote": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves."
+    },
+    {
+        "author": "Bill Gates",
+        "quote": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
+    },
+    {
+        "author": "Christopher Thompson",
+        "quote": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code."
+    },
+    {
+        "author": "Vidiu Platon",
+        "quote": "I don't care if it works on your machine! We are not shipping your machine!"
+    },
+    {
+        "author": "Edward V Berard",
+        "quote": "Walking on water and developing software from a specification are easy if both are frozen."
+    },
+    {
+        "author": "pixadel",
+        "quote": "Fine, Java MIGHT be a good example of what a programming language should be like.\nBut Java applications are good examples of what applications SHOULDN'T be like."
+    },
+    {
+        "author": "Oktal",
+        "quote": "I think Microsoft named .Net so it wouldn't show up in a Unix directory listing."
+    },
+    {
+        "author": "Bjarne Stroustrup",
+        "quote": "In C++ it's harder to shoot yourself in the foot, but when you do, you blow off your whole leg."
+    },
+    {
+        "author": "Mosher's Law of Software Engineering",
+        "quote": "Don't worry if it doesn't work right. If everything did, you'd be out of a job."
+    },
+    {
+        "author": "Bob Gray",
+        "quote": "Writing in C or C++ is like running a chain saw with all the safety guards removed."
+    },
+    {
+        "author": "Roberto Waltman",
+        "quote": "In the one and only true way. The object-oriented version of \"Spaghetti code\" is, of course, \"Lasagna code\". (Too many layers)"
+    },
+    {
+        "author": "Gavin Russell Baker",
+        "quote": "C++ : Where friends have access to your private members."
+    },
+    {
+        "author": "Linus Torvalds",
+        "quote": "Software is like sex: It's better when it's free."
+    },
+    {
+        "author": "Cult of vi",
+        "quote": "Emacs is a great operating system, lacking only a decent editor."
+    },
+    {
+        "author": "Church of Emacs",
+        "quote": "vi has two modes - \"beep repeatedly\" and \"break everything\"."
+    },
+    {
+        "author": "Steve Jobs",
+        "quote": "Picasso had a saying: \"Good artists copy, great artists steal.\".\nWe have always been shameless about stealing great ideas."
+    },
+    {
+        "author": "brotips #1001",
+        "quote": "Do everything for greatness, not money. Money follows greatness."
+    },
+    {
+        "author": "Robin Williams",
+        "quote": "God gave men both a penis and a brain, but unfortunately not enough blood supply to run both at the same time."
+    },
+    {
+        "author": "Darth Vader",
+        "quote": "Strong people don't put others down.\nThey lift them up."
+    },
+    {
+        "author": "Darth Vader #2",
+        "quote": "You don't get to 500 million star systems without making a few enemies."
+    },
+    {
+        "author": "Doug Linder",
+        "quote": "A good programmer is someone who always looks both ways before crossing a one-way street."
+    },
+    {
+        "author": "Jean-Claude van Damme",
+        "quote": "A cookie has no soul, it's just a cookie. But before it was milk and eggs.\nAnd in eggs there's the potential for life."
+    },
+    {
+        "author": "Michael Feldman",
+        "quote": "Java is, in many ways, C++--."
+    },
+    {
+        "author": "Don Ho",
+        "quote": "Je mange donc je chie."
+    },
+    {
+        "author": "Don Ho #2",
+        "quote": "RTFM is the true path of every developer.\nBut it would happen only if there's no way out."
+    },
+    {
+        "author": "Don Ho #3",
+        "quote": "Smartphone is the best invention of 21st century for avoiding the eyes contact while crossing people you know on the street."
+    },
+    {
+        "author": "Don Ho #4",
+        "quote": "Poor countries' museums vs. rich countries' museums:\nThe first show what they have left.\nThe second show what they have stolen."
+    },
+    {
+        "author": "Anonymous #1",
+        "quote": "An opinion without 3.14 is just an onion."
+    },
+    {
+        "author": "Anonymous #2",
+        "quote": "Before sex, you help each other get naked, after sex you only dress yourself.\nMoral of the story: in life no one helps you once you're fucked."
+    },
+    {
+        "author": "Anonymous #3",
+        "quote": "I'm not totally useless. I can be used as a bad example."
+    },
+    {
+        "author": "Anonymous #4",
+        "quote": "Life is too short to remove USB safely."
+    },
+    {
+        "author": "Anonymous #5",
+        "quote": "\"SEX\" is not the answer.\nSex is the question, \"YES\" is the answer."
+    },
+    {
+        "author": "Anonymous #6",
+        "quote": "Going to McDonald's for a salad is like going to a whore for a hug."
+    },
+    {
+        "author": "Anonymous #7",
+        "quote": "I need a six month holiday, TWICE A YEAR!"
+    },
+    {
+        "author": "Anonymous #8",
+        "quote": "Everything is a knife if you're strong enough."
+    },
+    {
+        "author": "Anonymous #9",
+        "quote": "I'M A FUCKING ANIMAL IN BED.\nMore specifically a koala."
+    },
+    {
+        "author": "Anonymous #10",
+        "quote": "Etc.\n\n(Abb.) End of Thinking Capacity.\n"
+    },
+    {
+        "author": "Anonymous #11",
+        "quote": "We stopped checking for monsters under our bed, when we realized they were inside us."
+    },
+    {
+        "author": "Anonymous #12",
+        "quote": "I would rather check my facebook than face my checkbook."
+    },
+    {
+        "author": "Anonymous #13",
+        "quote": "Whoever says Paper beats Rock is an idiot. Next time I see someone say that I will throw a rock at them while they hold up a sheet of paper."
+    },
+    {
+        "author": "Anonymous #14",
+        "quote": "A better world is where chickens can cross the road without having their motives questioned."
+    },
+    {
+        "author": "Anonymous #15",
+        "quote": "If I didn't drink, how would my friends know I love them at 2 AM?"
+    },
+    {
+        "author": "Anonymous #16",
+        "quote": "Q: How do you generate a random string?\nA: Put a Windows user in front of vi, and tell him to exit."
+    },
+    {
+        "author": "Anonymous #17",
+        "quote": "Pros and cons of making food.\nPros: food\nCons : making\n"
+    },
+    {
+        "author": "Anonymous #18",
+        "quote": "Never get into fights with ugly people, they have nothing to lose."
+    },
+    {
+        "author": "Anonymous #19",
+        "quote": "People who say they give 110%\ndon't really understand how percentages work."
+    },
+    {
+        "author": "Anonymous #20",
+        "quote": "Never make eye contact while eating a banana."
+    },
+    {
+        "author": "Anonymous #21",
+        "quote": "I love my sixpack so much, I protect it with a layer of fat."
+    },
+    {
+        "author": "Anonymous #22",
+        "quote": "\"It's impossible.\" said pride.\n\"It's risky.\" said experience.\n\"It's pointless.\" said reason.\n\"Give it a try.\" whispered the heart.\n...\n\"What the hell was that?!?!?!?!?!\" shouted the anus two minutes later."
+    },
+    {
+        "author": "Anonymous #23",
+        "quote": "A programmer is told to \"go to hell\".\nHe finds the worst part of that statement is the \"go to\"."
+    },
+    {
+        "author": "Anonymous #24",
+        "quote": "An Architect's dream is an Engineer's nightmare."
+    },
+    {
+        "author": "Anonymous #25",
+        "quote": "In a way, I feel sorry for the kids of this generation.\nThey'll have parents who know how to check browser history."
+    },
+    {
+        "author": "Anonymous #26",
+        "quote": "Q: What's the difference between git and github?\nA: It's the difference between porn and pornhub.\n"
+    },
+    {
+        "author": "Anonymous #27",
+        "quote": "I don't have a problem with caffeine.\nI have a problem without caffeine."
+    },
+    {
+        "author": "Anonymous #28",
+        "quote": "Why 6 afraid of 7?\nBecause 7 8 9 while 6 and 9 were flirting."
+    },
+    {
+        "author": "Anonymous #29",
+        "quote": "How do you comfort a JavaScript bug?\nYou console it."
+    },
+    {
+        "author": "Anonymous #30",
+        "quote": "Why do Java developers wear glasses?\nBecause they don't C#."
+    },
+    {
+        "author": "Anonymous #31",
+        "quote": "A baby's laughter is one of the most beautiful sounds you will ever hear. Unless it's 3 AM. And you're home alone. And you don't have a baby."
+    },
+    {
+        "author": "Anonymous #32",
+        "quote": "Two bytes meet. The first byte asks, \"You look terrible. Are you OK?\"\nThe second byte replies, \"No, just feeling a bit off.\""
+    },
+    {
+        "author": "Anonymous #33",
+        "quote": "Programmer - an organism that turns coffee into software."
+    },
+    {
+        "author": "Anonymous #34",
+        "quote": "It's not a bug - it's an undocumented feature."
+    },
+    {
+        "author": "Anonymous #35",
+        "quote": "Should array index start at 0 or 1?\nMy compromised solution is 0.5"
+    },
+    {
+        "author": "Anonymous #36",
+        "quote": "Every single time when I'm about to hug someone extremely sexy, I hit the mirror."
+    },
+    {
+        "author": "Anonymous #37",
+        "quote": "My software never has bugs. It just develops random features."
+    },
+    {
+        "author": "Anonymous #38",
+        "quote": "LISP = Lots of Irritating Silly Parentheses."
+    },
+    {
+        "author": "Anonymous #39",
+        "quote": "Perl, the only language that looks the same before and after RSA encryption."
+    },
+    {
+        "author": "Anonymous #40",
+        "quote": "People ask me why, as an atheist, I still say: OH MY GOD.\nIt makes perfect sense: We say \"Oh my God\" when something is UNBELIEVABLE."
+    },
+    {
+        "author": "Anonymous #41",
+        "quote": "1. Dig a hole.\n2. Name it love.\n3. Watch people falling in love.\n"
+    },
+    {
+        "author": "Anonymous #42",
+        "quote": "Don't think of yourself as an ugly person.\nThink of yourself as a beautiful monkey."
+    },
+    {
+        "author": "Anonymous #43",
+        "quote": "Afraid to die alone?\nBecome a bus driver."
+    },
+    {
+        "author": "Anonymous #44",
+        "quote": "The first 5 days after the weekend are always the hardest."
+    },
+    {
+        "author": "Anonymous #45",
+        "quote": "Rhinos are just fat unicorns."
+    },
+    {
+        "author": "Anonymous #46",
+        "quote": "Sometimes when I'm writing Javascript I want to throw up my hands and say \"this is bullshit!\"\nbut I can never remember what \"this\" refers to."
+    },
+    {
+        "author": "Anonymous #47",
+        "quote": "Kids are like farts.\nYou can only stand yours."
+    },
+    {
+        "author": "Anonymous #48",
+        "quote": "If you were born in Israel, you'd probably be Jewish.\nIf you were born in Saudi Arabia, you'd probably be Muslim.\nIf you were born in India, you'd probably be Hindu.\nBut because you were born in North America, you're Christian.\nYour faith is not inspired by some divine, constant truth.\nIt's simply geography."
+    },
+    {
+        "author": "Anonymous #49",
+        "quote": "There are 2 types of people in this world:\nPeople who say they pee in the shower, and the dirty fucking liars."
+    },
+    {
+        "author": "Anonymous #50",
+        "quote": "London 2012 Olympic Games - A bunch of countries coming across the ocean to put their flags in Britain and try to get a bunch of gold... it's like history but opposite."
+    },
+    {
+        "author": "Anonymous #51",
+        "quote": "I don't need a stable relationship,\nI just need a stable Internet connection."
+    },
+    {
+        "author": "Anonymous #52",
+        "quote": "What's the difference between religion and bullshit?\nThe bull."
+    },
+    {
+        "author": "Anonymous #53",
+        "quote": "Today, as I was waiting for my girlfriend in the street, I saw a woman who looked a lot like her. I ran towards her, my arms in the air ready to give her a hug, only to realise it wasn't her. I then had to pass the woman, my arms in the air, still running. FML"
+    },
+    {
+        "author": "Anonymous #54",
+        "quote": "Decimal: 1 + 1 = 2\nBinary:  1 + 1 = 10\nBoolean: 1 + 1 = 1\nJavaScript(hold my beer) : 1 + 1 = 11\n"
+    },
+    {
+        "author": "Anonymous #55",
+        "quote": "Don't be ashamed of who you are.\nThat's your parents job."
+    },
+    {
+        "author": "Anonymous #56",
+        "quote": "Religion is like circumcision.\nIf you wait until someone is 21 to tell them about it they probably won't be interested."
+    },
+    {
+        "author": "Anonymous #57",
+        "quote": "No, no, no, I'm not insulting you.\nI'm describing you."
+    },
+    {
+        "author": "Anonymous #58",
+        "quote": "I bought a dog once. Named him \"Stay\".\n\"Come here, Stay.\"\nHe's insane now."
+    },
+    {
+        "author": "Anonymous #59",
+        "quote": "Law of Software Quality:\n  errors = (more code)^2\ne = mc^2"
+    },
+    {
+        "author": "Anonymous #60",
+        "quote": "Yesterday I named my Wifi network \"hack me if you can\"\nToday when I woke up it was changed to \"challenge accepted\"."
+    },
+    {
+        "author": "Anonymous #61",
+        "quote": "Your mother is so fat,\nthe recursive function computing her mass causes a stack overflow."
+    },
+    {
+        "author": "Anonymous #62",
+        "quote": "Oral sex makes my day, but anal sex makes my hole weak."
+    },
+    {
+        "author": "Anonymous #63",
+        "quote": "I'm not saying I am Batman, I am just saying no one has ever seen me and Batman in the same room together."
+    },
+    {
+        "author": "Anonymous #64",
+        "quote": "I took a taxi today.\nThe driver told me \"I love my job, I own this car, I've got my own business, I'm my own boss, NO ONE tells me what to do!\"\nI said \"TURN LEFT HERE\".\n"
+    },
+    {
+        "author": "Anonymous #65",
+        "quote": "A man without God is like a fish without a bicycle."
+    },
+    {
+        "author": "Anonymous #66",
+        "quote": "I hate how spiders just sit there on the walls and act like they pay rent!"
+    },
+    {
+        "author": "Anonymous #67",
+        "quote": "Whenever someone starts a sentence by saying \"I'm not racist...\"),they are about to say something super racist."
+    },
+    {
+        "author": "Anonymous #68",
+        "quote": "I'm not laughing at you, I'm laughing with you, you're just not laughing.\n"
+    },
+    {
+        "author": "Anonymous #69",
+        "quote": "Women need a reason to have sex. Men just need a place."
+    },
+    {
+        "author": "Anonymous #70",
+        "quote": "If abortion is murder then are condoms kidnapping?"
+    },
+    {
+        "author": "Anonymous #71",
+        "quote": "Men also have feelings.\nFor example, they can feel hungry."
+    },
+    {
+        "author": "Anonymous #72",
+        "quote": "Project Manager:\nA person who thinks 9 women can deliver a baby in 1 month."
+    },
+    {
+        "author": "Anonymous #73",
+        "quote": "If you try and don't succeed, cheat. Repeat until caught. Then lie."
+    },
+    {
+        "author": "Anonymous #74",
+        "quote": "Olympics is the stupidest thing.\nPeople are so proud to be competing for their country.\nThey play their stupid song and raise some dumb flags.\nI'd love to see no flags raised, no song, no mention of country.\nOnly people."
+    },
+    {
+        "author": "Anonymous #75",
+        "quote": "I think therefore I am\nnot religious."
+    },
+    {
+        "author": "Anonymous #76",
+        "quote": "Even if being gay were a choice, so what?\nPeople choose to be assholes and they can get married."
+    },
+    {
+        "author": "Anonymous #77",
+        "quote": "Governments are like diapers.\nThey should be changed often, and for the same reason."
+    },
+    {
+        "author": "Anonymous #78",
+        "quote": "Mathématiquement, un cocu est un entier qui partage sa moitié avec un tiers.\n"
+    },
+    {
+        "author": "Anonymous #79",
+        "quote": "I'm a creationist.\nI believe man created God.\n"
+    },
+    {
+        "author": "Anonymous #80",
+        "quote": "Let's eat kids.\nLet's eat, kids.\n\nUse a comma.\nSave lives.\n"
+    },
+    {
+        "author": "Anonymous #81",
+        "quote": "A male engineering student was crossing a road one day when a frog called out to him and said, \"If you kiss me, I'll turn into a beautiful princess.\" He bent over, picked up the frog, and put it in his pocket.\n\nThe frog spoke up again and said, \"If you kiss me and turn me back into a beautiful princess, I will stay with you for one week.\" The engineering student took the frog out of his pocket, smiled at it; and returned it to his pocket.\n\nThe frog then cried out, \"If you kiss me and turn me back into a princess, I'll stay with you and do ANYTHING you want.\" Again the boy took the frog out, smiled at it, and put it back into his pocket.\n\nFinally, the frog asked, \"What is the matter? I've told you I'm a beautiful princess, that I'll stay with you for a week and do anything you want. Why won't you kiss me?\" The boy said, \"Look I'm an engineer. I don't have time for a girlfriend, but a talking frog is cool.\"\n"
+    },
+    {
+        "author": "Anonymous #82",
+        "quote": "Gamers never die.\nThey just go offline.\n"
+    },
+    {
+        "author": "Anonymous #83",
+        "quote": "Copy from one, it's plagiarism.\nCopy from two, it's research.\n"
+    },
+    {
+        "author": "Anonymous #84",
+        "quote": "Saying that Java is nice because it works on all OSes is like saying that anal sex is nice because it works on all genders."
+    },
+    {
+        "author": "Anonymous #85",
+        "quote": "Race, religion, ethnic pride and nationalism etc... does nothing but teach you how to hate people that you've never met."
+    },
+    {
+        "author": "Anonymous #86",
+        "quote": "Farts are just the ghosts of the things we eat."
+    },
+    {
+        "author": "Anonymous #87",
+        "quote": "I promised I would never kill someone who had my blood.\nBut that mosquito made me break my word."
+    },
+    {
+        "author": "Anonymous #88",
+        "quote": "Si un jour une chaise te dit que t'as un joli cul, tu trouveras ça bizarre mais c'est juste un compliment d'objet direct."
+    },
+    {
+        "author": "Anonymous #89",
+        "quote": "The biggest step in any relationship isn't the first kiss.\nIt's the first fart."
+    },
+    {
+        "author": "Anonymous #90",
+        "quote": "Clapping:\n(verb)\nRepeatedly high-fiving yourself for someone else's accomplishments."
+    },
+    {
+        "author": "Anonymous #91",
+        "quote": "CV: ctrl-C, ctrl-V"
+    },
+    {
+        "author": "Anonymous #92",
+        "quote": "Mondays are not so bad.\nIt's your job that sucks."
+    },
+    {
+        "author": "Anonymous #93",
+        "quote": "[In a job interview]\nInterviewer: What's your greatest weakness?\nCandidate: Honesty.\nInterviewer: I don't think honesty is a weakness.\nCandidate: I don't give a fuck what you think."
+    },
+    {
+        "author": "Anonymous #94",
+        "quote": "Hey, I just met you\nAnd this is crazy\nHere's my number 127.0.0.1\nPing me maybe?"
+    },
+    {
+        "author": "Anonymous #95",
+        "quote": "What if the spider you killed in your house had spent his entire life thinking you were his roommate?\nEver think about that?\nNo. You only think about yourself.\n"
+    },
+    {
+        "author": "Anonymous #96",
+        "quote": "Code for 6 minutes, debug for 6 hours."
+    },
+    {
+        "author": "Anonymous #97",
+        "quote": "Real Programmers don't comment their code.\nIf it was hard to write, it should be hard to read."
+    },
+    {
+        "author": "Anonymous #98",
+        "quote": "My neighbours listen to good music.\nWhether they like it or not."
+    },
+    {
+        "author": "Anonymous #99",
+        "quote": "I've been using Vim for about 2 years now,\nmostly because I can't figure out how to exit it."
+    },
+    {
+        "author": "Anonymous #100",
+        "quote": "Dear YouTube,\nI can deal with Ads.\nI can deal with Buffer.\nBut when Ads buffer, I suffer."
+    },
+    {
+        "author": "Anonymous #101",
+        "quote": "It's always sad when a man and his dick share only one brain...\nand it turns out to be the dick's."
+    },
+    {
+        "author": "Anonymous #102",
+        "quote": "If IE is brave enough to ask you to set it as your default browser,\ndon't tell me you dare not ask a girl out."
+    },
+    {
+        "author": "Anonymous #104",
+        "quote": "The main idea of \"Inception\":\nif you run a VM inside a VM inside a VM inside a VM inside a VM,\neverything will be very slow."
+    },
+    {
+        "author": "Anonymous #105",
+        "quote": "The best antivirus is common sense."
+    },
+    {
+        "author": "Anonymous #106",
+        "quote": "When I die, I want to go peacefully like my grandfather did, in his sleep\n- not screaming, like the passengers in his car."
+    },
+    {
+        "author": "Anonymous #107",
+        "quote": "Remember, YOUR God is real.\nAll those other Gods are ridiculous, made-up nonsense.\nBut not yours.\nYour God is real. Whichever one that is."
+    },
+    {
+        "author": "Anonymous #108",
+        "quote": "#your-mom {\n  width: 100000000000000000000px;\n  float: nope;\n}\n"
+    },
+    {
+        "author": "Anonymous #109",
+        "quote": "What's the best thing about UDP jokes?\nI don't care if you get them."
+    },
+    {
+        "author": "Anonymous #110",
+        "quote": "A programmer had a problem, so he decided to use threads.\nNow 2 has. He problems"
+    },
+    {
+        "author": "Anonymous #111",
+        "quote": "I'VE NEVER BEEN VERY GOOD AT GEOGRAPHY.\nBUT I CAN NAME AT LEAST ONE CITY IN FRANCE, WHICH IS NICE."
+    },
+    {
+        "author": "Anonymous #112",
+        "quote": "#hulk {\n    height: 200%;\n    width: 200%;\n    color: green;\n}\n"
+    },
+    {
+        "author": "Anonymous #113",
+        "quote": "A colon can completely change the meaning of a sentence. For example:\n- Jane ate her friend's sandwich.\n- Jane ate her friend's colon."
+    },
+    {
+        "author": "Anonymous #114",
+        "quote": "How can you face your problem if your problem is your face?"
+    },
+    {
+        "author": "Anonymous #115",
+        "quote": "YOLOLO:\nYou Only LOL Once."
+    },
+    {
+        "author": "Anonymous #116",
+        "quote": "Every exit is an entrance to new experiences."
+    },
+    {
+        "author": "Anonymous #117",
+        "quote": "A Native American was asked:\n\"Do you celebrate Columbus day?\"\nHe replied:\n\"I don't know, do Jews celebrate Hitler's birthday?\""
+    },
+    {
+        "author": "Anonymous #118",
+        "quote": "I love necrophilia, but i can't stand the awkward silences."
+    },
+    {
+        "author": "Anonymous #119",
+        "quote": "\"I'm gonna Google that. BING that, Bing that, sorry.\"\n- The CEO of Bing (many times per day still)"
+    },
+    {
+        "author": "Anonymous #120",
+        "quote": "GRAMMAR\nThe difference between knowing your shit and knowing you're shit."
+    },
+    {
+        "author": "Anonymous #121",
+        "quote": "5 out of 6 people agree that Russian roulette is completely safe."
+    },
+    {
+        "author": "Anonymous #122",
+        "quote": "Nerd?\nI prefer the term \"Intellectual badass\"."
+    },
+    {
+        "author": "Anonymous #123",
+        "quote": "I know every digit of π,\njust not in the right order."
+    },
+    {
+        "author": "Anonymous #124",
+        "quote": "You don't need religion to have morals.\nIf you can't determine right from wrong then you lack empathy, not religion."
+    },
+    {
+        "author": "Anonymous #125",
+        "quote": "Pooping with the door opened is the meaning of true freedom."
+    },
+    {
+        "author": "Anonymous #126",
+        "quote": "Social media does not make people stupid.\nIt just makes stupid people more visible."
+    },
+    {
+        "author": "Anonymous #127",
+        "quote": "SELECT finger\nFROM hand\nWHERE id = 2 ;\n"
+    },
+    {
+        "author": "Anonymous #128",
+        "quote": "3 men are on a boat. They have 4 cigarettes, but nothing to light them with.\nSo they throw a cigarette overboard and the whole boat becomes a cigarette lighter."
+    },
+    {
+        "author": "Anonymous #129",
+        "quote": "What is the most used language in programming?\n\nProfanity\n"
+    },
+    {
+        "author": "Anonymous #130",
+        "quote": "Common sense is so rare, it's kinda like a superpower..."
+    },
+    {
+        "author": "Anonymous #131",
+        "quote": "The best thing about a boolean is even if you are wrong, you are only off by a bit."
+    },
+    {
+        "author": "Anonymous #132",
+        "quote": "Benchmarks don't lie, but liars do benchmarks."
+    },
+    {
+        "author": "Anonymous #133",
+        "quote": "Multitasking: Screwing up several things at once."
+    },
+    {
+        "author": "Anonymous #134",
+        "quote": "Linux is user friendly.\nIt's just picky about its friends."
+    },
+    {
+        "author": "Anonymous #135",
+        "quote": "Theory is when you know something, but it doesn't work.\nPractice is when something works, but you don't know why.\nProgrammers combine theory and practice: nothing works and they don't know why."
+    },
+    {
+        "author": "Anonymous #136",
+        "quote": "Documentation is like sex:\nwhen it's good, it's very, very good;\nwhen it's bad, it's better than nothing."
+    },
+    {
+        "author": "Anonymous #137",
+        "quote": "Home is where you poop most comfortably."
+    },
+    {
+        "author": "Anonymous #138",
+        "quote": "Laptop Speakers problem: too quiet for music, too loud for porn."
+    },
+    {
+        "author": "Anonymous #139",
+        "quote": "Chinese food to go: $16\nGas to go get the food: $2\nDrove home just to realize they forgot one of your containers: RICELESS"
+    },
+    {
+        "author": "Anonymous #140",
+        "quote": "MS Windows is like religion to most people: they are born into it, accept it as default, never consider switching to another."
+    },
+    {
+        "author": "Anonymous #141",
+        "quote": "To most religious people, the holy books are like a software license (EULA).\nNobody actually reads it. They just scroll to the bottom and click \"I agree\"."
+    },
+    {
+        "author": "Anonymous #142",
+        "quote": "You are nothing but a number of days,\nwhenever each day passes then part of you has gone."
+    },
+    {
+        "author": "Anonymous #143",
+        "quote": "If 666 is evil, does that make 25.8069758011 the root of all evil?"
+    },
+    {
+        "author": "Anonymous #144",
+        "quote": "I don't want to sound like a badass but\nI eject my USB drive without removing it safely."
+    },
+    {
+        "author": "Anonymous #145",
+        "quote": "feet  (noun)\na device used for finding legos in the dark"
+    },
+    {
+        "author": "Anonymous #146",
+        "quote": "Buy a sheep\nName it \"Relation\"\nNow you have a Relationsheep\n"
+    },
+    {
+        "author": "Anonymous #147",
+        "quote": "I dig, you dig, we dig,\nhe dig, she dig, they dig...\n\nIt's not a beautiful poem,\nbut it's very deep."
+    },
+    {
+        "author": "Anonymous #148",
+        "quote": "# UNIX command line Russian roulette:\n[ $[ $RANDOM % 6 ] == 0 ] && rm -rf /* || echo *Click*\n"
+    },
+    {
+        "author": "Anonymous #149",
+        "quote": "unzip, strip, top, less, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep.\n\nNo, it's not porn. It's Unix."
+    },
+    {
+        "author": "Anonymous #150",
+        "quote": "To understand what recursion is, you must first understand recursion."
+    },
+    {
+        "author": "Anonymous #151",
+        "quote": "Q: What's the object-oriented way to become wealthy?\nA: Inheritance."
+    },
+    {
+        "author": "Anonymous #152",
+        "quote": "A SQL query goes into a bar, walks up to two tables and asks, \"Can I join you?\""
+    },
+    {
+        "author": "Anonymous #153",
+        "quote": "You are not fat, you are just more visible."
+    },
+    {
+        "author": "Anonymous #154",
+        "quote": "Minimalist\n (.   .)\n  )   (\n (  Y  )\nASCII Art"
+    },
+    {
+        "author": "Anonymous #155",
+        "quote": "Parallel lines have so much in common...\nIt's a shame that they'll never meet."
+    },
+    {
+        "author": "Anonymous #156",
+        "quote": "Declare variables, not war.\nExecute programs, not people."
+    },
+    {
+        "author": "Anonymous #157",
+        "quote": "I can't see an end. I have no control and I don't think there's any escape. I don't even have a home anymore.\nI think it's time for a new keyboard."
+    },
+    {
+        "author": "Anonymous #158",
+        "quote": "6.9\nA little fun interrupted by a period."
+    },
+    {
+        "author": "Anonymous #159",
+        "quote": "I love anal\n-yzing all data before making assumptions."
+    },
+    {
+        "author": "Anonymous #160",
+        "quote": "So my wife said\n\"take off my shirt\".\nI did as she said and take off her shirt.\nThen she said,\n\"Take off my skirt.\"\nI took off her skirt.\n\"Take off my shoes.\"\nI took off her shoes.\n\"Now take off my bra and panties.\"\nand so I took them off.\nThen she looked at me and said\n\"I don't want to catch you wearing my things ever again.\""
+    },
+    {
+        "author": "Anonymous #161",
+        "quote": "Do you know:\nSpiders are the only web developers in the world that enjoy finding bugs."
+    },
+    {
+        "author": "Anonymous #162",
+        "quote": "Psychologist: Lie down please.\n8: No, thank you. If I do, this session will never reach the end."
+    },
+    {
+        "author": "Anonymous #163",
+        "quote": "I love the way the earth rotates,\nit really makes my day."
+    },
+    {
+        "author": "Anonymous #164",
+        "quote": "Homonyms are a waist of thyme."
+    },
+    {
+        "author": "Anonymous #165",
+        "quote": "What's the difference between a police officer and a bullet?\nWhen a bullet kills someone else, you know it's been fired."
+    },
+    {
+        "author": "Anonymous #166",
+        "quote": "What has 4 letters\nsometimes 9 letters\nbut never has 5 letters"
+    },
+    {
+        "author": "Anonymous #167",
+        "quote": "The 'h' in \"software development\" stands for \"happiness\"."
+    },
+    {
+        "author": "Anonymous #168",
+        "quote": "Never let your computer know that you are in a hurry.\nComputers can smell fear.\nThey slow down if they know that you are running out of time."
+    },
+    {
+        "author": "Anonymous #169",
+        "quote": "JavaScript is not a language.\nIt's a programming jokes generator."
+    },
+    {
+        "author": "Anonymous #170",
+        "quote": "A journalist asked Linus Torvalds what makes code bad.\nHe replied : No comment."
+    },
+    {
+        "author": "Anonymous #171",
+        "quote": "If you spell \"Nothing\" backwards, it becomes \"Gnihton\" which also means nothing."
+    },
+    {
+        "author": "Anonymous #172",
+        "quote": "Programming in Javascript is like looking both ways before you cross the street, and then getting hit by an airplane."
+    },
+    {
+        "author": "Anonymous #173",
+        "quote": "Q: Why do we need a backend, why not just connect front end to database???\n\nA: Yeah! And why do we eat and go to the bathroom while we can throw the food directly in the toilet? Because stuff needs to get processed. ;)\n"
+    },
+    {
+        "author": "Anonymous #174",
+        "quote": "Someday, once humans are extinct from covid-19. I hope whatever species rules Earth makes chicken nuggets in the shape of us, like we did for dinosaurs."
+    },
+    {
+        "author": "Anonymous #175",
+        "quote": "Linkedin is basically a reversed Tinder.\nHot girls write to nerd guys and they didn't reply."
+    },
+    {
+        "author": "Anonymous #176",
+        "quote": "A vegan said to me, \"people who sell meat are gross!\"\nI said, \"people who sell fruits and vegetables are grocer.\"\n"
+    },
+    {
+        "author": "Anonymous #177",
+        "quote": "Documentation is a love letter that you write to your future self.\n"
+    },
+    {
+        "author": "Anonymous #178",
+        "quote": "When I die, I hope it's early in the morning so I don't have to go to work that day for no reason.\n"
+    },
+    {
+        "author": "Anonymous #179",
+        "quote": "Workers plaay football\nManagers play tennis\nCEOs play golf\n\nHigher the function, smaller the balls.\n"
+    },
+    {
+        "author": "Anonymous #180",
+        "quote": "Friends are just like trees.\nThey fall down when you hit them multiple times with an axe.\n"
+    },
+    {
+        "author": "Anonymous #181",
+        "quote": "I met a magical Genie. He gave me one wish.\nI said: \"I wish I could be you.\"\nThe Genue saud: \"Weurd wush but U wull grant ut.\"\n"
+    },
+    {
+        "author": "Anonymous #182",
+        "quote": "printf(\"%s%s\", \"\\\\o/\\n| |\\n| |8=\", \"=D\\n/ \\\\\\n\");\n"
+    },
+    {
+        "author": "Anonymous #183",
+        "quote": "Dear Optimist, Pessimist and Realist,\n\nWhile you guys were busy arguing about\nthe glass of water, I drank it!\n\n\n    Sincerely,\n    The Opportunist\n"
+    },
+    {
+        "author": "Anonymous #184",
+        "quote": "Dance like nobody's watching.\nEncrypt like everyone is.\n"
+    },
+    {
+        "author": "Anonymous #185",
+        "quote": "Me: \"I'm 45 years old but I've got a 19 year-old young man's body\"\nHer: \"Show me\"\nI opened the freezer to show her the body.\nShe screamed.\nMe too.\n"
+    },
+    {
+        "author": "Anonymous #186",
+        "quote": "Everyone complains about the weather,\nbut no one wants to sacrifice a virgin to change it.\n"
+    },
+    {
+        "author": "Anonymous #187",
+        "quote": "If you are alone at home and feel lonely:\nTurn off the lights, turn on the TV and watch a horror movie.\nThen you will have feeling that there are someone hidden in the kitchen, in the toilet\nand even under your bed.\n"
+    },
+    {
+        "author": "Anonymous #188",
+        "quote": "*Knock knock*\n\"Race condition\"\n\"Who's there?\"\n"
+    },
+    {
+        "author": "Anonymous #189",
+        "quote": "The two most difficult programming challenges are naming things, cache invalidation, and off-by-one errors.\n"
+    },
+    {
+        "author": "Anonymous #190",
+        "quote": "The greatest security vulnerability in any computer system is located between the keyboard and the chair.\n"
+    },
+    {
+        "author": "Anonymous #191",
+        "quote": "My biggest talent is always being able to tell what's in a wrapped present.\n\nIt's a gift.\n"
+    },
+    {
+        "author": "Anonymous #192",
+        "quote": "You can't force someone to love you.\nBut you can lock this person in the basement and wait for him/her to develop Stockholm syndrome.\n"
+    },
+    {
+        "author": "Anonymous #193",
+        "quote": "Do you know:\nthere are more airplanes in the oceans, than submarines in the sky?\n"
+    },
+    {
+        "author": "Anonymous #194",
+        "quote": "If you hold a Unix shell up to your ear,\nyou might just be able to hear the C.\n"
+    },
+    {
+        "author": "Anonymous #195",
+        "quote": "Why do programmers always mix up Halloween and Christmas?\nBecause Oct 31 == Dec 25\n"
+    },
+    {
+        "author": "Anonymous #196",
+        "quote": "What happened to the function that ran away?\nIt never returned.\n"
+    },
+    {
+        "author": "Anonymous #197",
+        "quote": "When I am tasked with sorting through a stack of résumés, I throw about half of them in the garbage.\nI do not want unlucky people working in our company.\n"
+    },
+    {
+        "author": "Anonymous #198",
+        "quote": "The reason why we write SQL commands all in CAPITAL letters is because it stands for Screaming Query Language.\n"
+    },
+    {
+        "author": "xkcd",
+        "quote": "Never have I felt so close to another soul\nAnd yet so helplessly alone\nAs when I Google an error\nAnd there's one result\nA thread by someone with the same problem\nAnd no answer\nLast posted to in 2003\n\n\"Who were you, DenverCoder9?\"\n\"What did you see?!\"\n\n(ref: https://xkcd.com/979/)"
+    },
+    {
+        "author": "A developer",
+        "quote": "No hugs & kisses.\nOnly bugs & fixes."
+    },
+    {
+        "author": "Elon Musk",
+        "quote": "Don't set your password as your child's name.\nName your child after your password."
+    },
+    {
+        "author": "OOP",
+        "quote": "If you want to treat women as objects,\ndo it with class."
+    },
+    {
+        "author": "Internet #404",
+        "quote": "Quote not Found"
+    },
+    {
+        "author": "Mary Oliver",
+        "quote": "Someone I loved once gave me a box full of darkness.\nIt took me years to understand that this, too, was a gift."
+    },
+    {
+        "author": "Floor",
+        "quote": "If you fall, I will be there."
+    },
+    {
+        "author": "Simon Amstell",
+        "quote": "If you have some problem in your life and need to deal with it, then use religion, that's fine.\nI use Google."
+    },
+    {
+        "author": "Albert Einstein",
+        "quote": "Only 3 things are infinite:\n1. Universe.\n2. Human Stupidity.\n3. Winrar's free trial."
+    },
+    {
+        "author": "Terry Pratchett",
+        "quote": "Artificial Intelligence is no match for natural stupidity."
+    },
+    {
+        "author": "Stewart Brand",
+        "quote": "Once a new technology starts rolling, if you're not part of the steamroller,\nyou're part of the road."
+    },
+    {
+        "author": "Sam Redwine",
+        "quote": "Software and cathedrals are much the same - first we build them, then we pray."
+    },
+    {
+        "author": "Jan L. A. van de Snepscheut",
+        "quote": "In theory, there is no difference between theory and practice. But, in practice, there is."
+    },
+    {
+        "author": "Jessica Gaston",
+        "quote": "One man's crappy software is another man's full time job."
+    },
+    {
+        "author": "Raymond Devos",
+        "quote": "Mon pied droit est jaloux de mon pied gauche. Quand l'un avance, l'autre veut le dépasser.\nEt moi, comme un imbécile, je marche !"
+    },
+    {
+        "author": "xkcd.com",
+        "quote": "int getRandomNumber()\n{\n    return 4; //chosen by fair dice roll, guaranteed to be random.\n}\n"
+    },
+    {
+        "author": "Gandhi",
+        "quote": "Earth provides enough to satisfy every man's need, but not every man's greed."
+    },
+    {
+        "author": "R. D. Laing",
+        "quote": "Life is a sexually transmitted disease and the mortality rate is one hundred percent."
+    },
+    {
+        "author": "Hustle Man",
+        "quote": "Politicians are like sperm.\nOne in a million turn out to be an actual human being."
+    },
+    {
+        "author": "Mark Twain",
+        "quote": "Censorship is telling a man he can't have a steak just because a baby can't chew it."
+    },
+    {
+        "author": "Friedrich Nietzsche",
+        "quote": "There is not enough love and goodness in the world to permit giving any of it away to imaginary beings."
+    },
+    {
+        "author": "Dhalsim",
+        "quote": "Pain is a state of mind and I don't mind your pain."
+    },
+    {
+        "author": "Elie Wiesel",
+        "quote": "Human beings can be beautiful or more beautiful,\nthey can be fat or skinny, they can be right or wrong,\nbut illegal? How can a human being be illegal?"
+    },
+    {
+        "author": "Dennis Ritchie",
+        "quote": "Empty your memory, with a free(), like a pointer.\nIf you cast a pointer to a integer, it becomes the integer.\nIf you cast a pointer to a struct, it becomes the struct.\nThe pointer can crash, and can overflow.\nBe a pointer my friend."
+    },
+    {
+        "author": "Chewbacca",
+        "quote": "Uuuuuuuuuur Ahhhhrrrrrr\nUhrrrr Ahhhhrrrrrr\nAaaarhg..."
+    },
+    {
+        "author": "Alexandria Ocasio-Cortez",
+        "quote": "No one ever makes a billion dollars.\nYou TAKE a billion dollars."
+    },
+    {
+        "author": "Freddy Krueger",
+        "quote": "Never stop dreaming.\n"
+    },
+    {
+        "author": "Ricky Gervais",
+        "quote": "Feel free to mock my lack of belief in any Gods.\nIt won't hurt my feelings.\nIt won't damage my faith in reason.\nAnd I won't kill you for it."
+    },
+    {
+        "author": "Francis bacon",
+        "quote": "Knowledge is power. France is bacon.\n\nWhen I was young my father said to me: \"Knowledge is power, Francis Bacon.\" I understood it as \"Knowledge is power, France is bacon.\"\n\nFor more than a decade I wondered over the meaning of the second part and what was the surreal linkage between the two. If I said the quote to someone, \"Knowledge is power, France is Bacon\", they nodded knowingly. Or someone might say, \"Knowledge is power\" and I'd finish the quote \"France is Bacon\" and they wouldn't look at me like I'd said something very odd, but thoughtfully agree. I did ask a teacher what did \"Knowledge is power, France is bacon\" mean and got a full 10-minute explanation of the \"knowledge is power\" bit but nothing on \"France is bacon\". When I prompted further explanation by saying \"France is bacon?\" in a questioning tone I just got a \"yes\". At 12 I didn't have the confidence to press it further. I just accepted it as something I'd never understand.\n\nIt wasn't until years later I saw it written down that the penny dropped.\n"
+    },
+    {
+        "author": "Space Invaders",
+        "quote": "\n\n       ▄██▄\n     ▄██████▄           █   █  █▀▀▀\n     ██▄██▄██           █   █  █▄▄\n      ▄▀▄▄▀▄            █ █ █  █\n     ▀ ▀  ▀ ▀           ▀▀ ▀▀  ▀▀▀▀\n\n      ▀▄   ▄▀           ▄█▀▀▀  ▄█▀▀█▄  █▀▄▀█  █▀▀▀\n     ▄█▀███▀█▄          █      █    █  █ ▀ █  █▄▄\n    █ █▀▀▀▀▀█ █         █▄     █▄  ▄█  █   █  █\n       ▀▀ ▀▀             ▀▀▀▀   ▀▀▀▀   ▀   ▀  ▀▀▀▀\n\n     ▄▄█████▄▄          ▀█▀  █▀▄  █\n    ██▀▀███▀▀██          █   █ ▀▄ █\n    ▀▀██▀▀▀██▀▀          █   █  ▀▄█\n    ▄█▀ ▀▀▀ ▀█▄         ▀▀▀  ▀   ▀▀\n\n      ▄▄████▄▄          █▀▀█  █▀▀▀  ▄▀▀▄  ▄█▀▀▀  █▀▀▀\n    ▄██████████▄        █▄▄█  █▄▄   █▄▄█  █      █▄▄ \n  ▄██▄██▄██▄██▄██▄      █     █     █  █  █▄     █   \n    ▀█▀  ▀▀  ▀█▀        ▀     ▀▀▀▀  ▀  ▀   ▀▀▀▀  ▀▀▀▀\n\n"
+    },
+    {
+        "author": "#JeSuisCharlie",
+        "quote": "Freedom of expression is like the air we breathe, we don't feel it, until people take it away from us.\n\nFor this reason, Je suis Charlie, not because I endorse everything they published, but because I cherish the right to speak out freely without risk even when it offends others.\nAnd no, you cannot just take someone's life for whatever he/she expressed.\n\nHence this \"Je suis Charlie\" edition.\n"
+    }
+]

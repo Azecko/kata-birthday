@@ -30,5 +30,8 @@ and then run `./ops/birthsible`.
 ## Greetings
 
 Thanks to [@ponsfrilus](https://github.com/ponsfrilus) for the help on the script.
+Thanks to <https://freshservice.com/general/top-it-quotes-blog/> for the quotes.
+Thanks to <https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/src/Notepad_plus.cpp#L7103> for the quotes.
+
 
 [Ansible Suitcase]: https://github.com/epfl-si/ansible.suitcase

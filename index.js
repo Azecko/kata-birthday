@@ -16,7 +16,8 @@ async function sendMail(receiver, subject, html) {
         from: process.env.MAIL_FROM, // sender address
         to: receiver, // list of receivers
         subject: subject, // Subject line
-        html: html, // html body
+        //html: html, // html body
+        text: html, // html body
       });
 }
 
@@ -48,14 +49,36 @@ const arrayRemove = (arr, value) => {
     })
 }
 
-const sendCelebrationEmailTo = async (emailList, peopleToCelebrate) => {
-    var mailMessage = `Hello there ! Today is <strong>${peopleToCelebrate.firstname}</strong>'s birthday ! Don't forget to wish an happy birthday to him/her !<br>He/She is now <strong>${await getAge(peopleToCelebrate.birthdate)}</strong> years old.`
+const genderify = (gender, word) => {
+    if (gender !== "f") return word
+    let words = {
+        "him": "her",
+        "He": "She"
+    }
+    return words[word]
+}
+
+let quotes = require('./quotes.json')
+const getQuotes = () => {
+    return quotes[ quotes.length * Math.random() << 0]
+}
+
+const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEmail) => {
+    console.log(getQuotes())
+    var mailMessage
+    mailMessage = `Hello there!\n\n`
+    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (${celebratedEmail})!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
+    mailMessage += `\n\nBirthminder has selected this quote for ${peopleToCelebrate.firstname}:\n`
+    mailMessage += `« ${getQuotes().quote} »`
+    const quoteAuthor = `— ${getQuotes().author}`
+    mailMessage += `\n${quoteAuthor.padStart(72)}`
+    mailMessage += `\n\nYour truly,\nBirthminder bot ❤`
     console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
-    sendMail(emailList, `${peopleToCelebrate.firstname}'s birthday`, mailMessage)
+    sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
 
 peopleToCelebrate.forEach((e, i) => {
     let emailList = Object.keys(birthdays)
     emailList = arrayRemove(emailList, e[0])
-    sendCelebrationEmailTo(emailList, e[1])
+    sendCelebrationEmailTo(emailList, e[1], e[0])
 })
