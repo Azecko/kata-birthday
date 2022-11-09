@@ -64,7 +64,6 @@ const getQuotes = () => {
 }
 
 const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEmail) => {
-    console.log(getQuotes())
     var mailMessage
     mailMessage = `Hello there!\n\n`
     mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (${celebratedEmail})!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
@@ -73,7 +72,7 @@ const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEm
     const quoteAuthor = `— ${getQuotes().author}`
     mailMessage += `\n${quoteAuthor.padStart(72)}`
     mailMessage += `\n\nYour truly,\nBirthminder bot ❤`
-    console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
+    console.log(`${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
     sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
 
