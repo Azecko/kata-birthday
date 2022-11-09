@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
 
 async function sendMail(receiver, subject, html) {
     return transporter.sendMail({
-        from: '"kata-birthday" <test-sami@epfl.ch>', // sender address
+        from: process.env.MAIL_FROM, // sender address
         to: receiver, // list of receivers
         subject: subject, // Subject line
         html: html, // html body
