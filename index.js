@@ -58,10 +58,10 @@ const genderify = (gender, word) => {
     return words[word]
 }
 
-const sendCelebrationEmailTo = async (emailList, peopleToCelebrate) => {
+const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEmail) => {
     var mailMessage
     mailMessage = `Hello there!\n\n`
-    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')}!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
+    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (${celebratedEmail})!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
     mailMessage += `\n\nYour truly,\nBirthminder bot.`
     console.log(`it's ${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
     sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
@@ -70,5 +70,5 @@ const sendCelebrationEmailTo = async (emailList, peopleToCelebrate) => {
 peopleToCelebrate.forEach((e, i) => {
     let emailList = Object.keys(birthdays)
     emailList = arrayRemove(emailList, e[0])
-    sendCelebrationEmailTo(emailList, e[1])
+    sendCelebrationEmailTo(emailList, e[1], e[0])
 })
