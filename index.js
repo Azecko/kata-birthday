@@ -22,11 +22,10 @@ async function sendMail(receiver, subject, html) {
 }
 
 async function getAge(date) {
-    var birthdate = new Date(date);
-    var cur = new Date();
-    var diff = cur-birthdate;
-    var age = Math.floor(diff/31557600000);
-    return age; // Warning : depending on time of the day, age can be wrong????
+    var birthdateYear = new Date(date).toLocaleDateString("nl").split("-")[2];
+    var curYear = new Date().toLocaleDateString("nl").split("-")[2];
+    var age = curYear-birthdateYear;
+    return age;
 }
 
 
