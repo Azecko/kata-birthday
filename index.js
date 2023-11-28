@@ -16,17 +16,16 @@ async function sendMail(receiver, subject, html) {
         from: process.env.MAIL_FROM, // sender address
         to: receiver, // list of receivers
         subject: subject, // Subject line
-        //html: html, // html body
-        text: html, // html body
+        html: html, // html body
+        //text: html, // html body
       });
 }
 
 async function getAge(date) {
-    var birthdate = new Date(date);
-    var cur = new Date();
-    var diff = cur-birthdate;
-    var age = Math.floor(diff/31557600000);
-    return age; // Warning : depending on time of the day, age can be wrong????
+    var birthdateYear = new Date(date).toLocaleDateString("nl").split("-")[2];
+    var curYear = new Date().toLocaleDateString("nl").split("-")[2];
+    var age = curYear-birthdateYear;
+    return age;
 }
 
 
@@ -63,17 +62,73 @@ const getQuotes = () => {
     return quotes[ quotes.length * Math.random() << 0]
 }
 
+let version = require('./package.json')
+const getVersion = () => {
+    return version["version"]
+}
+
 const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEmail) => {
-    var mailMessage
-    mailMessage = `Hello there!\n\n`
-    mailMessage += `Today is *${peopleToCelebrate.firstname}*'s birthday! Don't forget to wish an happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (${celebratedEmail})!\n${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old.`
-    mailMessage += `\n\nBirthminder has selected this quote for ${peopleToCelebrate.firstname}:\n`
-    mailMessage += `« ${getQuotes().quote} »`
-    const quoteAuthor = `— ${getQuotes().author}`
-    mailMessage += `\n${quoteAuthor.padStart(72)}`
-    mailMessage += `\n\nYour truly,\nBirthminder bot ❤`
-    console.log(`${peopleToCelebrate.firstname} birthday sent to ${emailList}`)
-    sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
+    var mailMessage = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+                margin: 20px;
+            }
+            strong {
+                color: #007480;
+                font-weight: 900;
+            }
+            blockquote {
+                margin: 15px 0;
+                padding: 10px;
+                background-color: #f9f9f9;
+                border-left: 3px solid #007480;
+            }
+            cite {
+                display: block;
+                margin-top: 10px;
+                color: #888;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                margin-top: 20px;
+                font-size: 14px;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Hello there! 👋</h3>
+        <p>Today is <strong>${peopleToCelebrate.firstname}</strong>'s birthday! Don't forget to wish a happy birthday to ${genderify(peopleToCelebrate.gender, 'him')} (<a href="mailto:${celebratedEmail}">${celebratedEmail}</a>) !<br>${genderify(peopleToCelebrate.gender, 'He')} is now ${await getAge(peopleToCelebrate.birthdate)} years old. 🎂</p>
+        <p>Birthminder has selected this quote for ${peopleToCelebrate.firstname}:</p>
+        <blockquote>
+            <p>${getQuotes().quote}</p>
+            <cite> — ${getQuotes().author}</cite>
+        </blockquote>
+        <p>Your truly,<br>Birthminder bot ❤</p>
+        <br>
+        <br>
+        <hr>
+        <footer>
+            <a href="https://github.com/Azecko/kata-birthday/">Birthminder bot</a> -- version ${getVersion()}
+        </footer>
+    </body>
+    </html>
+    `;
+    console.log(`${peopleToCelebrate.firstname}'s birthday sent to ${emailList}`);
+    sendMail("ehouarn.duriaux@epfl.ch", `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
 
 peopleToCelebrate.forEach((e, i) => {
