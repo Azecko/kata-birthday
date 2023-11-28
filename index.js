@@ -121,6 +121,9 @@ const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEm
         <br>
         <br>
         <hr>
+        <footer>
+            <a href="https://github.com/Azecko/kata-birthday/">Birthminder bot</a> -- version ${getVersion()}
+        </footer>
     </body>
     </html>
     `;
