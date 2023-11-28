@@ -176,7 +176,7 @@ const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEm
     </html>
     `;
     console.log(`${peopleToCelebrate.firstname}'s birthday sent to ${emailList}`);
-    sendMail("ehouarn.duriaux@epfl.ch", `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
+    sendMail(emailList, `🎂 It's ${peopleToCelebrate.firstname}'s birthday`, mailMessage)
 }
 
 peopleToCelebrate.forEach((e, i) => {
