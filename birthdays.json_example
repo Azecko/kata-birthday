@@ -3,12 +3,14 @@
         "birthdate": "2000-04-08",
         "firstname": "Jane",
         "lastname": "Doe",
-        "gender": "f"
+        "gender": "f",
+        "email": true
     },
     "john.doe@example.com": {
         "birthdate": "2004-04-08",
         "firstname": "John",
         "lastname": "Doe",
-        "gender": "m"
+        "gender": "m",
+        "email": false
     }
 }
