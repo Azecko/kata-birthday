@@ -182,5 +182,6 @@ const sendCelebrationEmailTo = async (emailList, peopleToCelebrate, celebratedEm
 peopleToCelebrate.forEach((e, i) => {
     let emailList = Object.keys(birthdays)
     emailList = arrayRemove(emailList, e[0])
+    emailList = emailList.filter((e, k) => birthdays[e].email)
     sendCelebrationEmailTo(emailList, e[1], e[0])
 })
